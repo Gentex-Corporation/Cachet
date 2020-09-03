@@ -26,7 +26,6 @@ class ComponentStatusWasChangedEventTest extends AbstractComponentEventTestCase
 {
     use DatabaseMigrations;
     use InteractsWithMail;
-
     public function testComponentUpdateEmailWasSent()
     {
         $user = factory('CachetHQ\Cachet\Models\User')->create();
