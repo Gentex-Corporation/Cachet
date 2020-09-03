@@ -34,7 +34,7 @@ return [
         'stickied'     => 'Stickied Incidents',
         'scheduled'    => 'Maintenance',
         'scheduled_at' => ', plánované na :timestamp',
-        'posted'       => 'Posted :timestamp by :username',
+        'posted'       => 'Posted :timestamp',
         'posted_at'    => 'Posted at :timestamp',
         'status'       => [
             1 => 'Zkoumání příčiny',
