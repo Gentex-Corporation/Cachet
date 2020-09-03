@@ -34,7 +34,7 @@ return [
         'stickied'     => 'Angepinnte Vorfälle',
         'scheduled'    => 'Wartungsarbeiten',
         'scheduled_at' => ', geplant :timestamp',
-        'posted'       => 'Posted :timestamp by :username',
+        'posted'       => 'Veröffentlicht :timestamp',
         'posted_at'    => 'Veröffentlicht am :timestamp',
         'status'       => [
             1 => 'Untersuchungen laufen',
