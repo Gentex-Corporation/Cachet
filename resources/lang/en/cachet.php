@@ -14,10 +14,10 @@ return [
     'components' => [
         'last_updated' => 'Last updated :timestamp',
         'status'       => [
-            0 => 'In Maintenance',
+            0 => 'Unknown',
             1 => 'Operational',
-            2 => 'Alert',
-            3 => 'Reduced Performance',
+            2 => 'In Maintenance',
+            3 => 'Alert',
             4 => 'Down',
         ],
         'group' => [
@@ -30,15 +30,15 @@ return [
     // Incidents
     'incidents' => [
         'none'         => 'No incidents reported',
-        'past'         => 'Past Incidents',
+        'past'         => 'Events',
         'stickied'     => 'Stickied Incidents',
         'scheduled'    => 'Maintenance',
         'scheduled_at' => ', scheduled :timestamp',
         'posted'       => 'Posted :timestamp by :username',
         'posted_at'    => 'Posted at :timestamp',
         'status'       => [
-            1 => 'Investigating',
-            2 => 'Identified',
+            1 => 'In Maintenance',
+            2 => 'Investigating',
             3 => 'Monitoring',
             4 => 'Fixed',
         ],
