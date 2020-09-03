@@ -12,27 +12,27 @@
 return [
 
     'dashboard'          => 'Řídicí panel',
-    'writeable_settings' => 'Nelze zapisovat do složky nastavení Cachet. Ujistěte se, že web server může zapisovat do <code>./bootstrap/cachet</code>.',
+    'writeable_settings' => 'The Cachet settings directory is not writeable. Please make sure that <code>./bootstrap/cachet</code> is writeable by the web server.',
 
     // Incidents
     'incidents' => [
-        'title'                    => 'Incidenty &amp; Plán odstávek',
+        'title'                    => 'Incidents & Maintenance',
         'incidents'                => 'Incidenty',
-        'logged'                   => '{0}Nejsou hlášeny žádné incidenty, dobrá práce.|[1]Zapsali jste jeden incident.|[2,*]Nahlásili jste <strong>:count</strong> incidentů.',
+        'logged'                   => '{0}There are no incidents, good work.|[1]You have logged one incident.|[2,*]You have reported <strong>:count</strong> incidents.',
         'incident-create-template' => 'Vytvořit šablonu',
         'incident-templates'       => 'Šablony incidentů',
         'updates'                  => [
-            'title'   => 'Aktualizace incidentu :incident',
-            'count'   => '{0}žádné aktualizace |[1]jedna aktualizace |[2]dvě aktualizace | [3, *] Několik aktualizací',
+            'title'   => 'Incident updates for :incident',
+            'count'   => '{0}Zero Updates|[1]One Update|[2]Two Updates|[3,*]Several Updates',
             'add'     => [
-                'title'   => 'Vytvořit novou zprávu k události',
-                'success' => 'Vaše aktualizace incidentu byla vytvořena.',
-                'failure' => 'Při aktualizaci incidentu se něco pokazilo.',
+                'title'   => 'Create new incident update',
+                'success' => 'Your new incident update has been created.',
+                'failure' => 'Something went wrong with the incident update.',
             ],
             'edit' => [
-                'title'   => 'Editovat aktualizace incidentu',
-                'success' => 'Událost byla aktualizována.',
-                'failure' => 'Při aktualizaci incidentu se něco pokazilo',
+                'title'   => 'Edit incident update',
+                'success' => 'The incident update has been updated.',
+                'failure' => 'Something went wrong updating the incident update',
             ],
         ],
         'reported_by'              => 'Reported :timestamp by :user',
@@ -56,7 +56,7 @@ return [
             'title' => 'Šablony incidentů',
             'add'   => [
                 'title'   => 'Vytvořit šablonu incidentu',
-                'message' => 'Měli byste přidat šablonu události.',
+                'message' => 'Create your first incident template.',
                 'success' => 'Byla vytvořena nová šablona události.',
                 'failure' => 'Se šablonou události se něco pokazilo.',
             ],
@@ -75,12 +75,12 @@ return [
     // Incident Maintenance
     'schedule' => [
         'schedule'     => 'Plánovaná odstávka',
-        'logged'       => '{0}Žádná údržba není v plánu, dobrá práce.|[1]Naplánovali jste jednu údržbu.|[2,*]Jsou v plánu <strong>:count</strong> údržby.',
+        'logged'       => '{0}There has been no Maintenance, good work.|[1]You have logged one schedule.|[2,*]You have reported <strong>:count</strong> schedules.',
         'scheduled_at' => 'Naplánováno na :timestamp',
         'add'          => [
-            'title'   => 'Přidat plánovanou odstávku',
-            'success' => 'Odstávka byla přidána.',
-            'failure' => 'Něco se pokazilo při přidávání odstávky, zkus to znova.',
+            'title'   => 'Add Maintenance',
+            'success' => 'Maintenance added.',
+            'failure' => 'Something went wrong adding the Maintenance, please try again.',
         ],
         'edit' => [
             'title'   => 'Edit Maintenance',
@@ -158,12 +158,12 @@ return [
     'subscribers' => [
         'subscribers'          => 'Odběratelé',
         'description'          => 'Pokud dojde ke vzniku incidentu nebo služby, odběratelé obdrží aktualizace e-mailem.',
-        'description_disabled' => 'Chcete-li použít tuto funkci, potřebujete povolit uživatelům registraci pro oznámení.',
+        'description_disabled' => 'To use this feature, you need allow people to signup for notifications.',
         'verified'             => 'Ověřeno',
         'not_verified'         => 'Neověřeno',
         'subscriber'           => ': e-mail, přihlášen: datum',
         'no_subscriptions'     => 'Přihlášeno k zasílání všech aktualizací',
-        'global'               => 'Globálně odebírané',
+        'global'               => 'Globally subscribed',
         'add'                  => [
             'title'   => 'Přidat nového odběratele',
             'success' => 'Odběratel přidán.',
@@ -182,7 +182,7 @@ return [
         'team'        => 'Tým',
         'member'      => 'Člen',
         'profile'     => 'Profil',
-        'description' => 'Členové týmu budou schopni přidat nebo upravit komponenty a incidenty.',
+        'description' => 'Team Members will be able to add, modify & edit components and incidents.',
         'add'         => [
             'title'   => 'Přidat nového člena týmu',
             'success' => 'Nový člen týmu byl přidán.',
@@ -216,7 +216,7 @@ return [
             'analytics' => 'Monitoring přístupů',
         ],
         'log' => [
-            'log' => 'Záznamy',
+            'log' => 'Log',
         ],
         'localization' => [
             'localization' => 'Lokální nastavení',
@@ -227,11 +227,11 @@ return [
             'footer'        => 'Vlastní zápatí HTML',
         ],
         'mail' => [
-            'mail'  => 'E-Mail',
-            'test'  => 'Vyzkoušet',
+            'mail'  => 'Mail',
+            'test'  => 'Test',
             'email' => [
-                'subject' => 'Testovací oznámení z Cachet',
-                'body'    => 'Toto je testovací oznámení z Cachet.',
+                'subject' => 'Test notification from Cachet',
+                'body'    => 'This is a test notification from Cachet.',
             ],
         ],
         'security' => [
@@ -253,7 +253,7 @@ return [
             'contributors'  => 'Přispěvatelé',
             'license'       => 'Cachet je open-sourcový projekt pod BSD-3-licencí, vydávaný <a href="https://alt-three.com/?utm_source=cachet&utm_medium=credits&utm_campaign=Cachet%20Credit%20Dashboard" target="_blank">Alt Three Services Limited</a>.',
             'backers-title' => 'Podporovatelé a sponzoři',
-            'backers'       => 'Pokud chcete podpořit další vývoj aplikace, běžte se podívat na kampaň <a href="https://patreon.com/jbrooksuk" target="_blank">Cachet Patreon</a>.',
+            'backers'       => 'If you\'d like to support future development, check out the <a href="https://patreon.com/jbrooksuk" target="_blank">Cachet Patreon</a> campaign.',
             'thank-you'     => 'Děkujeme každému z :count přispěvatelů.',
         ],
     ],
@@ -262,7 +262,7 @@ return [
     'login' => [
         'login'      => 'Přihlášení',
         'logged_in'  => 'Jste přihlášeni.',
-        'welcome'    => 'Vítejte zpátky!',
+        'welcome'    => 'Welcome back!',
         'two-factor' => 'Zadejte prosím váš token.',
     ],
 
@@ -280,8 +280,8 @@ return [
 
     // Widgets
     'widgets' => [
-        'support'          => 'Podpořit Cachet',
-        'support_subtitle' => 'Mrkněte na náš <strong><a href="https://patreon.com/jbrooksuk" target="_blank">Patreon</a></strong> page!',
+        'support'          => 'Support Cachet',
+        'support_subtitle' => 'Check out our <strong><a href="https://patreon.com/jbrooksuk" target="_blank">Patreon</a></strong> page!',
         'news'             => 'Poslední novinky',
         'news_subtitle'    => 'Získat nejnovější aktualizace',
     ],
