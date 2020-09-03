@@ -74,7 +74,7 @@ return [
 
     // Incident Maintenance
     'schedule' => [
-        'schedule'     => 'Maintenance Planifiée',
+        'schedule'     => 'Maintenance',
         'logged'       => '{0}There has been no Maintenance, good work.|[1]You have logged one schedule.|[2,*]You have reported <strong>:count</strong> schedules.',
         'scheduled_at' => 'Planifiée à :timestamp',
         'add'          => [
