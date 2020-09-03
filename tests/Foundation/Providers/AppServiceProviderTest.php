@@ -9,23 +9,24 @@
  * file that was distributed with this source code.
  */
 
-namespace CachetHQ\Tests\Cachet\Providers;
+namespace CachetHQ\Tests\Cachet\Foundation\Providers;
 
 use AltThree\TestBench\ServiceProviderTrait;
-use CachetHQ\Cachet\Repositories\Metric\MetricRepository;
+use CachetHQ\Cachet\Services\Dates\DateFactory;
 use CachetHQ\Tests\Cachet\AbstractTestCase;
 
 /**
- * This is the repository service provider test class.
+ * This is the app service provider test class.
  *
  * @author Graham Campbell <graham@alt-three.com>
+ * @author James Brooks <james@alt-three.com>
  */
-class RepositoryServiceProviderTest extends AbstractTestCase
+class AppServiceProviderTest extends AbstractTestCase
 {
     use ServiceProviderTrait;
 
-    public function testMetricRepositoryIsInjectable()
+    public function testDateFactoryIsInjectable()
     {
-        $this->assertIsInjectable(MetricRepository::class);
+        $this->assertIsInjectable(DateFactory::class);
     }
 }
