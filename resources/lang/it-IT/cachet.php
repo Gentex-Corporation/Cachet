@@ -34,7 +34,7 @@ return [
         'stickied'     => 'Stickied Incidents',
         'scheduled'    => 'Maintenance',
         'scheduled_at' => ', programmata il :timestamp',
-        'posted'       => 'Posted :timestamp by :username',
+        'posted'       => 'Pubblicato :timestamp',
         'posted_at'    => 'Posted at :timestamp',
         'status'       => [
             1 => 'Analisi',
