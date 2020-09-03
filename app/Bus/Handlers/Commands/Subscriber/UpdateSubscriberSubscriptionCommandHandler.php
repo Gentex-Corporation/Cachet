@@ -36,7 +36,7 @@ class UpdateSubscriberSubscriptionCommandHandler
         $subscriber = $command->subscriber;
         $subscriptions = $command->subscriptions ?: [];
 
-        $components = Component::enabled()->get();
+        $components = Component::all();
 
         $updateSubscriptions = $components->filter(function ($item) use ($subscriptions) {
             return in_array($item->id, $subscriptions);
