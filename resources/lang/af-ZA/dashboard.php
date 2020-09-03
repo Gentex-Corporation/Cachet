@@ -179,13 +179,13 @@ return [
 
     // Team
     'team' => [
-        'team'        => 'Span',
-        'member'      => 'Lid',
-        'profile'     => 'Profiel',
+        'team'        => 'Team',
+        'member'      => 'Member',
+        'profile'     => 'Profile',
         'description' => 'Team Members will be able to add, modify & edit components and incidents.',
         'add'         => [
             'title'   => 'Add a new team member',
-            'success' => 'Spanlid bygevoeg.',
+            'success' => 'Team member added.',
             'failure' => 'The team member could not be added, please try again.',
         ],
         'edit' => [
@@ -206,7 +206,7 @@ return [
 
     // Settings
     'settings' => [
-        'settings'  => 'Instellings',
+        'settings'  => 'Settings',
         'app-setup' => [
             'app-setup'   => 'Application Setup',
             'images-only' => 'Only images may be uploaded.',
@@ -242,7 +242,7 @@ return [
             'stylesheet' => 'Stylesheet',
         ],
         'theme' => [
-            'theme' => 'Tema',
+            'theme' => 'Theme',
         ],
         'edit' => [
             'success' => 'Settings saved.',
@@ -260,7 +260,7 @@ return [
 
     // Login
     'login' => [
-        'login'      => 'Teken In',
+        'login'      => 'Login',
         'logged_in'  => 'You\'re logged in.',
         'welcome'    => 'Welcome back!',
         'two-factor' => 'Please enter your token.',
@@ -269,7 +269,7 @@ return [
     // Sidebar footer
     'help'        => 'Help',
     'status_page' => 'Status Page',
-    'logout'      => 'Teken Uit',
+    'logout'      => 'Logout',
 
     // Notifications
     'notifications' => [
