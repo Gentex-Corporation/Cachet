@@ -34,7 +34,7 @@ return [
         'stickied'     => 'Incidentes Fixados',
         'scheduled'    => 'Manutenção',
         'scheduled_at' => ', agendada :timestamp',
-        'posted'       => 'Posted :timestamp by :username',
+        'posted'       => 'Postado :timestamp',
         'posted_at'    => 'Postado em :timestamp',
         'status'       => [
             1 => 'Investigando',
