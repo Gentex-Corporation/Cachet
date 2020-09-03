@@ -34,7 +34,7 @@ return [
         'stickied'     => 'Vastgezette incidenten',
         'scheduled'    => 'Gepland onderhoud',
         'scheduled_at' => ', gepland :timestamp',
-        'posted'       => 'Posted :timestamp by :username',
+        'posted'       => 'Geplaatst op :timestamp',
         'posted_at'    => 'Geplaatst op :timestamp',
         'status'       => [
             1 => 'In onderzoek',
