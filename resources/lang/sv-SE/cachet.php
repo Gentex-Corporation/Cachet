@@ -34,7 +34,7 @@ return [
         'stickied'     => 'Stickied Incidents',
         'scheduled'    => 'Planerat underhåll',
         'scheduled_at' => ', schemalagda: tidsstämpel',
-        'posted'       => 'Posted :timestamp by :username',
+        'posted'       => 'Posted :timestamp',
         'posted_at'    => 'Posted at :timestamp',
         'status'       => [
             1 => 'Undersöker',
