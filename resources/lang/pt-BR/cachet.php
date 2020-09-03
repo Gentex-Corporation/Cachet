@@ -90,10 +90,10 @@ return [
             'manage_at_link'      => 'Gerencie suas inscrições aqui :link',
         ],
         'email' => [
-            'manage_subscription' => 'Enviamos um e-mail para você, por favor clique no link para gerenciar sua assinatura',
+            'manage_subscription' => 'We\'ve sent you an email, please click the link to manage your subscription',
             'subscribe'           => 'Inscreva-se para atualizações via e-mail.',
             'subscribed'          => 'Inscrição realizada com sucesso! Por favor verifique o e-mail que enviamos à você para confirmar sua inscrição.',
-            'updated-subscribe'   => 'Suas assinaturas foram atualizadas com sucesso.',
+            'updated-subscribe'   => 'You\'ve succesfully updated your subscriptions.',
             'verified'            => 'Sua inscrição foi confirmada! Obrigado!',
             'manage'              => 'Gerencie sua assinatura',
             'unsubscribe'         => 'Não desejo mais receber notificações via e-mail.',
