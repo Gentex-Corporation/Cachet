@@ -38,7 +38,7 @@ return [
         'posted_at'    => 'Posted at :timestamp',
         'status'       => [
             1 => 'In Maintenance',
-            2 => 'Investigating',
+            2 => 'In Progress',
             3 => 'Monitoring',
             4 => 'Fixed',
         ],
